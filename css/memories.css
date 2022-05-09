@@ -449,14 +449,14 @@
 @media screen and (max-aspect-ratio: 3/4) {
 	.ly-txt01 {
 		position:absolute;
-		width: 40%;
+		width: 60%;
 		left:10%;
 		top:5%;
 	}
 	
 	.ly-txt02 {
 		position:absolute;
-		width: 40%;
+		width: 60%;
 		left:15%;
 		top:50%;
 	}
@@ -1812,7 +1812,7 @@
 	/* 盒子 */
 	.ly-box31 {
 		width: 65%;
-		height: 60%;
+		height: 50%;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
@@ -1835,14 +1835,14 @@
 	/* 盒子 */
 	.ly-box32 {
 		width: 50%;
-		height: 30%;
+		height: 40%;
 		border: 2px #CCC;
 		background-color: #fff;
 		background-color: rgba(255,255,255,0.6);
 		border-radius: 8px;
 		position: absolute;
 		left: 23%;
-		top: 67%;
+		top: 57%;
 		overflow: hidden;
 		opacity: 0;
 		-webkit-transform: scale(0.5, 0.5);
@@ -1906,7 +1906,7 @@
 	}
 
 	.ly-box31 p, .ly-box32 p {
-		font-size: 2.5vw !important;
+		font-size: 30px;
 	}
 }
 
@@ -2014,7 +2014,7 @@
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 70%;
+	height: 60%;
 	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
@@ -2072,11 +2072,10 @@
 
 .ly-txt32 {
 	font-family: Microsoft YaHei;
-	font-size: 20px;
-	text-indent:2em;
+	font-size: 30px;
 	font-color: #000;
 	position: absolute;
-	padding-top: 20px;
+	padding-top: 10px;
 	left: 5%;
 	top: 12%;
 	opacity: 0;
@@ -2108,23 +2107,23 @@
 }
 
 .ly-txt34 {
-	text-indent:2em;
+	/*text-indent:2em;*/
 	font-family: Microsoft YaHei;
-	font-size: 18px;
+	font-size: 26px;
 	font-color: #000;
 	position: absolute;
 	margin-left:30px;
 	margin-right:30px;
 	top: 12%;
 	opacity: 1;
-	transition: all 13s;
+	transition: all 5s;
 	height:0;
 	width:88%;
 	overflow:hidden;
 }
 
 .active .ly-txt34 {
-	height:500px;
+	height:120px;
 	transition-delay: 6.5s;
 }
 
